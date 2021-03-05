@@ -8,4 +8,4 @@ updates:
       timezone: "Europe/Oslo"
     ignore:
       - dependency-name: "node"
-        versions: ["15.x.x"]
+        versions: ["15.x.x-slim"]
