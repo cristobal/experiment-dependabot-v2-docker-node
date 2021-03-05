@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "docker" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+      time: "13:00"
+      timezone: "Europe/Oslo"
+    ignore:
+      - dependency-name: "node"
+        versions: ["15.x.x"]
