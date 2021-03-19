@@ -1,3 +1,3 @@
-FROM node:14.14.0-slim
+FROM node:15.12.0-slim
 
 CMD echo "hello world"
