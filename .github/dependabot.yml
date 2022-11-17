@@ -4,8 +4,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13:20"
+      time: "14:50"
       timezone: "Europe/Oslo"
     ignore:
       - dependency-name: "node"
-        versions: ["15"]
+        versions: ["> 16"]
