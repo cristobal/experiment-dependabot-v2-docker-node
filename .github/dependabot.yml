@@ -17,7 +17,7 @@ updates:
       time: "13:40"
       timezone: "Europe/Oslo"
     ignore:
-      - dependency-name: "mcr.microsoft.com/dotnet/sdk"
+      - dependency-name: "dotnet/sdk"
         versions: [">= 7.x"]
-      - dependency-name: "mcr.microsoft.com/dotnet/aspnet"
+      - dependency-name: "dotnet/aspnet"
         versions: [">= 7.x"]        
