@@ -9,7 +9,7 @@ RUN dotnet --version > dotnet_version
 ####
 # Service
 ###
-FROM mcr.microsoft.com/dotnet/aspnet:6.0.11-alpine3.16 AS service
+FROM mcr.microsoft.com/dotnet/aspnet:6.0.13-alpine3.16 AS service
 RUN addgroup -g 1000 app \
     && adduser -u 1000 -G app -s /bin/sh -D app
 
