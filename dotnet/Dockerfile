@@ -1,7 +1,7 @@
 ####
 # Base
 ###
-FROM mcr.microsoft.com/dotnet/sdk:6.0.403-alpine3.16 AS base
+FROM mcr.microsoft.com/dotnet/sdk:6.0.406-alpine3.16 AS base
 
 WORKDIR /build
 RUN dotnet --version > dotnet_version
